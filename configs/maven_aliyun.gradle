@@ -4,7 +4,7 @@ buildscript {
         /**
          * 阿里maven镜像仓库 https://developer.aliyun.com/mvn/view?spm=5176.12218280.1251812.btn2.20fbc0c8xe9NU3
          */
-        //public
+        //public  gradle 8.x 之后写法不同： maven { url = uri("https://maven.aliyun.com/repository/public") }
         maven { url 'https://maven.aliyun.com/repository/public' }
         //central
         maven { url 'https://maven.aliyun.com/repository/central' }
